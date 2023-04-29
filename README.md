@@ -2,7 +2,7 @@
 
 public|src|remain
 ---|---|---
-👀|📢|🌱
+👀|📢|🤙
 
 ### use
 - typescript
