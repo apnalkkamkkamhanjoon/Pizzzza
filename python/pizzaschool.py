@@ -22,5 +22,5 @@ for i in range(len(td) // len(th)):
     data.append(item)
 
 # JSON 파일로 저장
-with open('pizzaschool.json', 'w', encoding='utf-8') as f:
+with open('json/pizzaschool.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
