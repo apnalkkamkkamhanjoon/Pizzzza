@@ -10,13 +10,13 @@ soup = BeautifulSoup(html, 'html.parser')
 
 data = []
 
-for tag in soup.select('div.thumb_wrap > div.thumb > button > img'):
+for tag in soup.select('a > img'):
     data.append({'이미지': tag['src']})
 
-for i, tag in enumerate(soup.select('div.content > div.name')):
+for i, tag in enumerate(soup.select('a > strong')):
     data[i]['품명'] = tag.text.strip()
 
-with open('src/json/papajohns.json', 'w', encoding='utf-8') as f:
+with open('src/json/mrpizza.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
 
 print('저장완료!')
