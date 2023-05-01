@@ -1,156 +1,125 @@
 [
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ292SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "슈퍼 디럭스 히어로"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ294SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "불고기 체다 스타라이트"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ296SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "리코타 페퍼로니 킹덤"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ290SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "아보카도 새우"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ281SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "대만 콘 치즈 감자"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ285SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "이탈리아 마르게리따"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ290SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "아보카도 새우"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ288SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "크랩&립 하우스"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ271SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "와일드 와일드 웨스트 스테이크"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ147SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "블랙타이거 슈림프\n시그니처"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ237SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "블록버스터4"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ155SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "블랙앵거스 스테이크"
 	},
 	{
-		"링크": "detail?dsp_ctgr=C0101&code_01=RPZ162SL&dough_gb=203",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "베스트 콰트로"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ273SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "와일드 와일드 웨스트 스테이크+블랙타이거 슈림프"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ178SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "블랙타이거 슈림프+블랙앵거스 스테이크\nBEST"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ268SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "포테이토+리얼불고기 더블치즈엣지"
 	},
 	{
-		"링크": "/goods/hnh",
-		"이미지": "https://cdn.dominos.co.kr/renewal2018/w/img/h&hplus.jpg"
-	},
-	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ292SL&dough_gb=203');",
-		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
+		"이미지": "https://cdn.dominos.co.kr/renewal2018/w/img/h&hplus.jpg",
 		"품명": "슈퍼 디럭스 히어로"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ294SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "불고기 체다 스타라이트"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ296SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "리코타 페퍼로니 킹덤"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ011SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "포테이토\n시그니처"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ223SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "뉴욕 오리진"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ169SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "리얼불고기"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ159SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "우리 고구마"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ005SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "슈퍼디럭스"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ001SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "슈퍼슈프림"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ003SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "베이컨체더치즈"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ007SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "페퍼로니"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ010SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "치즈"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ281SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "대만 콘 치즈 감자"
 	},
 	{
-		"링크": "javascript:goLink('M010101', '/goods/detail?dsp_ctgr=C0101&code_01=RPZ285SL&dough_gb=203');",
 		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif",
 		"품명": "이탈리아 마르게리따"
+	},
+	{
+		"이미지": "https://cdn.dominos.co.kr/domino/pc/images/bg.gif"
 	}
 ]
