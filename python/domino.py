@@ -1,29 +1,24 @@
 import requests
-import json
 from bs4 import BeautifulSoup
+import json
 
-url = 'https://web.dominos.co.kr/goods/list'
+url = 'https://web.dominos.co.kr/goods/list?dsp_ctgr=C0101'
 
-# requests 라이브러리를 사용하여 HTML 소스코드를 가져옴
 response = requests.get(url)
 html = response.text
-
-# HTML 소스코드를 파싱하여 BeautifulSoup 객체를 생성
 soup = BeautifulSoup(html, 'html.parser')
 
 data = []
-menu_list = soup.select('div[class="menu_list"]')
-for tag in menu_list:
-    item_name = menu_list.select_one('div[class="subject"]').text.strip()
-    item_price1 = menu_list.select_one('div[class="price-box"]').text.strip()
 
-    # data 리스트에 품명과 가격을 추가
-    data.append({'품명': item_name, '가격L': item_price1})
+for tag in soup.select('div.prd-img > a:first-child, div.prd-img > a:first-child > img, div.prd-cont > div.subject'):
+    if tag.name == 'a':
+        data.append({'링크': tag['href']})
+    elif tag.name == 'img':
+        data[-1]['이미지'] = tag['src']
+    else:
+        data[-1]['품명'] = tag.text.strip().replace('\nNEW', '')
 
-
-
-
-with open('json/dominos.json', 'w', encoding='utf-8') as f:
+with open('json/domino.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
 
 print('저장완료!')
