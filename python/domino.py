@@ -10,13 +10,11 @@ soup = BeautifulSoup(html, 'html.parser')
 
 data = []
 
-for tag in soup.select('div.prd-img > a:first-child, div.prd-img > a:first-child > img, div.prd-cont > div.subject'):
-    if tag.name == 'a':
-        data.append({'링크': tag['href']})
-    elif tag.name == 'img':
-        data[-1]['이미지'] = tag['src']
-    else:
-        data[-1]['품명'] = tag.text.strip().replace('\nNEW', '')
+for tag in soup.select('div.prd-img > a:first-child > img'):
+    data.append({'이미지': tag['src']})
+
+for i, tag in enumerate(soup.select('div.prd-cont > div.subject')):
+    data[i]['품명'] = tag.text.strip().replace('\nNEW', '')
 
 with open('src/json/domino.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
