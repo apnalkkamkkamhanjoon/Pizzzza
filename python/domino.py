@@ -18,7 +18,7 @@ for tag in soup.select('div.prd-img > a:first-child, div.prd-img > a:first-child
     else:
         data[-1]['품명'] = tag.text.strip().replace('\nNEW', '')
 
-with open('json/domino.json', 'w', encoding='utf-8') as f:
+with open('src/json/domino.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
 
 print('저장완료!')

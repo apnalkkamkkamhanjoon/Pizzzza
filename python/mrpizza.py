@@ -16,7 +16,7 @@ for tag in soup.select('a > img'):
 for i, tag in enumerate(soup.select('a > strong')):
     data[i]['품명'] = tag.text.strip()
 
-with open('json/papajohns.json', 'w', encoding='utf-8') as f:
+with open('src/json/mrpizza.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent='\t')
 
 print('저장완료!')
