@@ -1,11 +1,11 @@
-import Papajohns from "../components/Papajohns";
+import Pizzacontainer from '../components/Pizzacontainer'
 
 
 const Main = () => {
 
   return (
     <>
-      <Papajohns />
+      <Pizzacontainer />
     </>
   );
 };
