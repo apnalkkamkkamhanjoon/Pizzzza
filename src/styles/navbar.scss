@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap");
+
+$date-color: #747474;
+$font: "Dongle", sans-serif;
+
+.NavBar {
+  display: flex;  /* Flexbox 적용 */
+  align-items: center; /* 요소를 수직 가운데 정렬 */
+  justify-content: space-between; /* 양쪽 끝으로 요소를 분산 배치 */
+  border-bottom: 4px solid #747474;
+  height: 15%;
+}
+
+.logoBox{
+  display: flex;
+}
+
+.logo{
+  position: relative;
+  left: 50%;
+  width: 5vw;
+}
+
+.LinkBox {
+  display: flex;
+}
+
+.link {
+  position: relative;
+  font-family: $font;
+  font-size: 2.8rem;
+  text-decoration: none;
+  color: $date-color;
+  font-weight: 700;
+  margin-left: 150px;
+
+  &:hover {
+    color: #ff7777;
+  }
+}
+
+.dateBox{
+  margin-left: auto;
+}
+
+.date {
+  position: relative;
+  right: 20%;
+  color: $date-color;
+  font-family: $font;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
