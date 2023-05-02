@@ -1,0 +1,11 @@
+$background-color: #ffeeda;
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.mainContainer {
+  height: 100vh;
+  background-color: $background-color;
+}

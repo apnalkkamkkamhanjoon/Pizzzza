@@ -8,17 +8,18 @@ interface Pizza {
 }
 
 const Papajohns = () => {
-    const [papaJson, setPapaJson] = useState<Pizza[]>([]);
+    const [pizzaJson, setPizzaJson] = useState<Pizza[]>([]);
 
     useEffect(() => {
-        setPapaJson(PaPaJohns)
+        setPizzaJson(PaPaJohns)
     }, [])
 
-    const randomIndex = Math.floor(Math.random() * papaJson.length);
+    const randomIndex = Math.floor(Math.random() * pizzaJson.length);
+    
     return (
         <div>
-            <img src={papaJson[randomIndex]?.이미지} alt={papaJson[randomIndex]?.품명} />
-            <strong>{papaJson[randomIndex]?.품명}</strong>
+            <img src={pizzaJson[randomIndex]?.이미지} alt={pizzaJson[randomIndex]?.품명} />
+            <strong>{pizzaJson[randomIndex]?.품명}</strong>
             <GrPowerReset />
         </div>
     );
