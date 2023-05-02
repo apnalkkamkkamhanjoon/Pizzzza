@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap");
+
+$data-color: #000;
+$background-color: #ffeeda;
+$font: "Dongle", sans-serif;
+
+body {
+  margin: 0;
+}
+
+.mainContainer {
+  height: 100vh;
+  background-color: $background-color;
+}
+
+.date {
+  position: absolute;
+  margin: 0;
+  left: 85%;
+  color: $data-color;
+  font-family: $font;
+  font-size: 2.4rem;
+}

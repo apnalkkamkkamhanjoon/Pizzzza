@@ -1,4 +1,5 @@
 import Pizzacontainer from '../components/Pizzacontainer'
+import '../styles/main.scss'
 
 let today = new Date();
 let year = today.getFullYear(); // 년도
@@ -11,8 +12,8 @@ const Main = () => {
 
   return (
     <>
-      <div>
-        <p>
+      <div className='mainContainer'>
+        <p className='date'>
           {year}년 {month}월 {date}일 {dayName}요일
         </p>
         <Pizzacontainer />
