@@ -6,7 +6,6 @@ const Domino = () => {
     return (
         <div className='mainContainer'>
             <NavBar />
-
         </div>
     );
 };
