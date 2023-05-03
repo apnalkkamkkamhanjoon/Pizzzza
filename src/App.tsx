@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Routes } from 'react-router';
-import Domino from './pages/Domino';
+import Domino from './pages/Pizzaschool';
 import Papajohns from './pages/Papajohns';
 import Mrpizza from './pages/Mrpizza';
 
