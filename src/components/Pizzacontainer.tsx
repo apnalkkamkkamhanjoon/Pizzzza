@@ -1,28 +1,25 @@
-import React, { useEffect, useState } from "react";
-import PaPaJohns from '../json/papajohns.json';
-import { GrPowerReset } from "react-icons/gr";
+import Reload from "../components/Reload";
+import '../styles/pizza.scss'
 
-interface Pizza {
-    이미지: string;
-    품명: string;
+type PizzaProps = {
+    imgSrc: string;
+    name: string;
+    title: string;
 }
 
-const Papajohns = () => {
-    const [pizzaJson, setPizzaJson] = useState<Pizza[]>([]);
-
-    useEffect(() => {
-        setPizzaJson(PaPaJohns)
-    }, [])
-
-    const randomIndex = Math.floor(Math.random() * pizzaJson.length);
-    
+const PizzaContainer = ({ imgSrc, name, title }: PizzaProps) => {
     return (
         <div>
-            <img src={pizzaJson[randomIndex]?.이미지} alt={pizzaJson[randomIndex]?.품명} />
-            <strong>{pizzaJson[randomIndex]?.품명}</strong>
-            <GrPowerReset />
+            <div className="pizzaFrame">
+                <Reload />
+                <h1>오늘의 {title}</h1>
+                <div className="imgBox">
+                    <img src={imgSrc} alt={name} className='pizzaImg' />
+                </div>
+                <p className='pizzaName'>{name}</p>
+            </div>
         </div>
     );
 };
 
-export default Papajohns;
+export default PizzaContainer;

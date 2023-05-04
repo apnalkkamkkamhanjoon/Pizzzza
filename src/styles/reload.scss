@@ -1,0 +1,11 @@
+.reload {
+  position: absolute;
+  left: 90%;
+  top: 4%;
+  font-size: 1.6rem;
+  cursor: pointer;
+
+  &:hover{
+    color: #ff3719;
+  }
+}

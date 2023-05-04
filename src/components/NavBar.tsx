@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../styles/navbar.scss'
 import { Link } from "react-router-dom";
 import pizzaImg from "../asset/logo.svg";
@@ -18,7 +18,7 @@ const NavBar = () => {
             </div>
             <div className='LinkBox'>
                 <Link to='/' className='link'>
-                    도미노피자
+                    피자스쿨
                 </Link>
                 <Link to='/papajohns' className='link'>
                     파파존스
