@@ -1,7 +1,5 @@
-import React from 'react';
 import NavBar from '../components/NavBar';
 import '../styles/main.scss'
-import PizzaContainer from '../components/Pizzacontainer';
 
 const Mrpizza = () => {
     return (
