@@ -11,6 +11,5 @@ items = soup.select('ul.menu_list > li > a')
 data=[]
 for item in items:
     strong_tag = item.find('strong')
-    name = strong_tag.text.strip()
     
-print(name)
+print(strong_tag)
