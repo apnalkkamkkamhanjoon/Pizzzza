@@ -23,9 +23,6 @@ const NavBar = () => {
                 <Link to='/papajohns' className='link'>
                     파파존스
                 </Link>
-                <Link to='/mrpizza' className='link'>
-                    미스터피자
-                </Link>
             </div>
             <div className='dateBox'>
             <p className='date'>
